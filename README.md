@@ -1,6 +1,6 @@
 # Laravel Nova: Uuid support
 
-I just didn't like the implementation of the migrations table on the original hack to get UUid support with laravel nova
+I just didn't like the implementation of the migrations table on the original hack to get Uuid support with laravel nova
 
 So this is cleaner and more acceptable in my world
 
