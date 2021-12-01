@@ -1,6 +1,8 @@
 # Laravel Nova: Uuid support
 
-This package adds support to Laravel Nova for resources and users that have string identifiers such as uuid's.
+I just didn't like the implementation of the migrations table on the original hack to get UUid support with laravel nova
+
+So this is cleaner and more acceptable in my world
 
 ### Usage
 
@@ -8,7 +10,7 @@ Note that you should only use this package in Laravel Nova projects.
 
 ```bash
 # install the package
-composer require madewithlove/laravel-nova-uuid-support
+composer require itsmejoshua/laravel-nova-uuid-support
 
 # run your migrations
 php artisan migrate
