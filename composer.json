@@ -1,5 +1,5 @@
 {
-    "name": "madewithlove/laravel-nova-uuid-support",
+    "name": "itsmejoshua/laravel-nova-uuid-support",
     "description": "Adds uuid and other string identifier support to Laravel Nova",
     "keywords": [
         "laravel",
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Madewithlove\\NovaUuidSupport\\": "src"
+            "Itsmejoshua\\NovaUuidSupport\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Madewithlove\\NovaUuidSupport\\NovaUuidSupportServiceProvider"
+                "Itsmejoshua\\NovaUuidSupport\\NovaUuidSupportServiceProvider"
             ]
         }
     }
