@@ -1,6 +1,6 @@
 <?php
 
-namespace Madewithlove\NovaUuidSupport;
+namespace ItsmeJoshua\NovaUuidSupport;
 
 use Illuminate\Support\ServiceProvider;
 
