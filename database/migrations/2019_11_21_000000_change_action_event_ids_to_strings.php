@@ -14,7 +14,7 @@ class ChangeActionEventIdsToStrings extends Migration
     public function up()
     {
         Schema::table('action_events', function (Blueprint $table) {
-            $table->uuid('user_id', 36)->change();
+            $table->uuid('user_id')->change();
         });
     }
 
