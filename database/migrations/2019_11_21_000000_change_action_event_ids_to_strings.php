@@ -25,8 +25,6 @@ class ChangeActionEventIdsToStrings extends Migration
      */
     public function down()
     {
-        Schema::table('action_events', function (Blueprint $table) {
-            $table->integer('user_id')->unsigned()->change();
-        });
+
     }
 }
